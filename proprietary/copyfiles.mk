@@ -5,4 +5,4 @@ copy_files := $(subst $(LOCAL_PATH)/,, \
 	)))
 
 PRODUCT_COPY_FILES += $(foreach file,$(copy_files),\
-    $(LOCAL_PATH)/$(file):$(file))
+    $(LOCAL_PATH)/$(file):system/$(file))

@@ -27,4 +27,4 @@ PRODUCT_PACKAGES += \
     colorservice \
     qcrilhook
 
-$(call inherit-product, vendor/zuk/z2_plus/vendor/copyfiles.mk)
+$(call inherit-product, vendor/zuk/z2_plus/proprietary/copyfiles.mk)
