@@ -539,7 +539,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/z2_plus/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/z2_plus/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/zuk/z2_plus/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/zuk/z2_plus/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/z2_plus/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/zuk/z2_plus/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -636,15 +635,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zuk/z2_plus/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zuk/z2_plus/proprietary/etc/capability.xml:system/etc/capability.xml \
-    vendor/zuk/z2_plus/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/z2_plus/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zuk/z2_plus/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/zuk/z2_plus/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zuk/z2_plus/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/z2_plus/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
-    vendor/zuk/z2_plus/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zuk/z2_plus/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/zuk/z2_plus/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/zuk/z2_plus/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/zuk/z2_plus/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zuk/z2_plus/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
